@@ -1,6 +1,6 @@
 services:
-  - type: web
-    name: yt-dlp-web
+  - type: .mp4
+    name: https://kallietell.substack.com/p/pov-force-feeding-a-bully-until-shes
     env: python
     buildCommand: ./build.sh
     startCommand: gunicorn app:app
